@@ -9,6 +9,13 @@ body {
     color: #fff;
     font-family: 'Courier New', monospace;
 }
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:auto;
+    height: 30%;
+}
 
 .arcade-machine {
     width: 480px;
