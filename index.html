@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css\styles.css">
+    <link href="img/icono.png" rel="icon" type="image/x-icon">
+    <script src="juegos/piedraPapelTijera.js"></script>
     <title>Máquina de Videojuegos Retro Arcade</title>
 </head>
 <body class = "body">
@@ -16,10 +18,23 @@
     <div class="arcade-machine">
         <h2>Elija su juego</h2>
             
-        <div class="game-controls">
+        <!-- <div class="game-controls">
+            <button class="control-button" onclick="iniciarTateti()">Tateti</button>
+            <button class="control-button" onclick="iniciarPiedraPapelTijera()">Piedra, papel, tijera</button>
+
             <button class="control-button">Tateti</button>
             <button class="control-button">Piedra, papel, tijera</button>
+        </div> -->
+
+        
+        <div class="game-controls">
+            <button class="control-button" onclick="iniciarPiedraPapelTijera()">Piedra, papel, tijera</button>
         </div>
+        <!-- Agrega un contenedor para mostrar el resultado del juego -->
+        <div id="resultado"></div>
+    
+        <div><a href="juegos/instrucciones.html" target="_self" class="control-button">Instrucciones</a></div>
+        <div><a href="juegos/tateti.html" target="_self" class="control-button">Tateti</a></div>
     </div>
     </main>
     <footer>

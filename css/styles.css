@@ -64,4 +64,56 @@
     background-color: #5e2e67;
 }
 
+#resultado {
+    margin-top: 20px;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.fondoInstruccion {
+    background-image: url('../img/fondoInstrucciones.jpg'); 
+    background-size: cover; 
+    background-position: center; 
+    background-repeat: no-repeat; 
+}
+
+.instrucciones {
+    font-family: cursive;
+    font-size: 20px;
+    color: #fff;
+    text-align: justify;
+}
+      
+    
+/* tateti */
+
+.game-container {
+    text-align: center;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    gap: 10px;
+    margin: 20px auto;
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    cursor: pointer;
+}
+
+.cell:hover {
+    background-color: #eee;
+}
+
+
+
 
