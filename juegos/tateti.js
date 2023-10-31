@@ -1,4 +1,3 @@
-// tateti.js
 
 const CELDAS = 9;
 const X = 'X';
@@ -77,7 +76,7 @@ function realizarMovimientoComputadora() {
     const mejorMovimiento = minimax(celdas, O).indice;
     marcarCelda(celdas[mejorMovimiento], O);
     if (verificarGanador(O)) {
-        mostrarMensaje('¡La computadora gana!');
+        mostrarMensaje('¡Play and Game gana! Intenta devuelta.');
     } else if (esTableroCompleto()) {
         mostrarMensaje('¡Empate!');
     } else {

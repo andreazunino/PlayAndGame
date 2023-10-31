@@ -50,52 +50,6 @@ body {
 }    
 
 
-/* Juego PPT*/
-
-#PPT{
-    display: none;
-}
-
-.juegoPPT {
-        width: 65%;
-        height: 80%;
-        align-items: center;
-        text-align:center;
-        flex-direction: column;
-        object-fit: inherit;
-        position: absolute; /* Cambia a position: absolute */
-        top: 12%;
-        left: 20%;
-        border-radius: 25%;
-}  
-
-#game-container {
-    display:flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    margin-top: 20px;
-}
-
-.options {
-    display: flex;
-    gap: 20px;
-}
-
-.btn {
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    border-radius: 5px;
-}
-
-.result {
-    margin-top: 20px;
-    font-size: 1em;
-    color: #FFF;
-}
-
-
 /*Seccion de botones*/
 .game-controls {
     box-shadow: 0 0 50px 10px rgba(0, 0, 0, 0.5);
