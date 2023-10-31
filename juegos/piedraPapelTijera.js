@@ -18,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     function obtenerResultado(usuario, computadora) {
         if (usuario === computadora) {
-            return "¡Es un empate!";
+            return "Es un empate. Volve a intentar.";
         } else if (
             (usuario === "piedra" && computadora === "tijera") ||
             (usuario === "papel" && computadora === "piedra") ||
@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function() {
         ) {
             return "¡Ganaste!";
         } else {
-            return "¡La computadora gana!";
+            return "¡Play and Game gana!";
         }
     }
     
